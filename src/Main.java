@@ -22,31 +22,35 @@ public class Main {
         System.out.println(paper - 7639);
 
         var friend = 19;
-        friend = (friend + 2)/7;
+        friend = friend + 2;
+        friend= friend/7;
         System.out.println(friend);
 
         var frog = 3.5;
-        frog = ((frog * 10)/3.5) +4;
+        frog = frog*10;
+        frog = frog/3.5;
+        frog = frog + 4;
         System.out.println(frog);
 
         var oneBoxer = 78.2;
         var twoBoxer = 82.7;
-        var totalWeight = (oneBoxer + twoBoxer);
+        var totalWeight = oneBoxer + twoBoxer;
         System.out.println(totalWeight);
-        var difference = (oneBoxer - twoBoxer);
+
+        var difference = oneBoxer - twoBoxer;
         System.out.println("Разица между массами бойцов " + difference + "кг!");
 
-        var remainder = (twoBoxer % oneBoxer);
+        var remainder = twoBoxer % oneBoxer;
         System.out.println("Остаток от деления между двумя весами " + remainder + "кг!");
 
         var hours = 640;
         var oneEmployee = 8;
-        var totalEmployees = (hours/oneEmployee);
+        var totalEmployees = hours/oneEmployee;
         System.out.println("Всего работников в компании - " + totalEmployees + " человек ");
 
-        var sumEmpoyees = (totalEmployees + 94);
-        var totalHours = (sumEmpoyees * oneEmployee);
-        System.out.println("Если в компании работает " + sumEmpoyees + " человека, то всего " + totalHours
+        totalEmployees = totalEmployees + 94;
+        var totalHours = totalEmployees * oneEmployee;
+        System.out.println("Если в компании работает " + totalEmployees + " человека, то всего " + totalHours
                            + " часов работы может быть поделено между сотрудниками ");
     }
 }
