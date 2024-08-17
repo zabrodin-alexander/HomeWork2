@@ -21,7 +21,7 @@ public class Main {
         System.out.println(cat - 1.6);
         System.out.println(paper - 7639);
 
-        var friend = 19;
+        var friend = 10;
         System.out.println(friend);
         friend = friend + 2;
         System.out.println(friend);
