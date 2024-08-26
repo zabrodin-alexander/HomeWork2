@@ -1,27 +1,29 @@
 public class Main {
     public static void main(String[] args) {
-        var dog = 8.0;
-        var cat = 3.6;
-        var paper = 763789;
+        System.out.println();
+
+        var dog = 8;
         System.out.println(dog);
+        var cat = 3.6;
         System.out.println(cat);
+        var paper = 763789;
         System.out.println(paper);
         System.out.println();
 
-        dog = dog + 4;
-        cat = cat + 4;
-        paper = paper + 4;
-        System.out.println(dog + 4);
-        System.out.println(cat + 4);
-        System.out.println(paper + 4);
+        dog += 4;
+        System.out.println(dog);
+        cat +=4;
+        System.out.println(cat);
+        paper += 4;
+        System.out.println(paper);
         System.out.println();
 
-        dog = dog - 3.5;
-        cat = cat - 1.6;
-        paper = paper - 7639;
-        System.out.println(dog - 3.5);
-        System.out.println(cat - 1.6);
-        System.out.println(paper - 7639);
+        dog -= 3.5;
+        System.out.println(dog);
+        cat -= 1.6;
+        System.out.println(cat);
+        paper -= 7639;
+        System.out.println(paper);
         System.out.println();
 
         var friend = 19;
